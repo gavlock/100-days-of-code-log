@@ -44,3 +44,20 @@ Safari](https://github.com/gavlock/100-days-of-code-R1/commit/b2e214cd44a182d5fe
 
 [Cleaned up debug and
 logging](https://github.com/gavlock/100-days-of-code-R1/commit/158bd711b47954532c39aca528aca99084f41193)
+
+### R1D4
+Added an "n standard deviations" filter, and changed the fundamental
+detection heuristic.
+
+- Filter out frequencies whose amplitudes are below (mean amplitude +
+  n standard deviations), with n currently equal to 5.
+  
+- Change fundamental detection heuristic from "find frequency with
+  highest amplitude" to "after filtering, find the frequency at the
+  _first_local_ maximum amplitude."  This is because (with my piano
+  samples) sometimes some of the first few harmonics have higher power
+  than the fundamental.  This seems to happen especially in the lower
+  octaves.
+
+[Add "n standard deviations" filter and change fundamental
+detection](https://github.com/gavlock/100-days-of-code-R1/commit/19a8fab14c710b61931629d163e090620d4c944e)
