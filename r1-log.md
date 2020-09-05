@@ -61,3 +61,14 @@ detection heuristic.
 
 [Add "n standard deviations" filter and change fundamental
 detection](https://github.com/gavlock/100-days-of-code-R1/commit/19a8fab14c710b61931629d163e090620d4c944e)
+
+### R1D5
+Added "Harmonic Product Spectrum" for evaluation
+
+Trying to resolve yesterday's problems with detection of low octave
+notes. Added a harmonic product spectrum to the display to see if HPS
+would help out.
+
+*spoiler* --- it doesn't.
+
+[Added "Harmonic Product Spectrum" for evaluation](https://github.com/gavlock/100-days-of-code-R1/commit/43be2d339b4daae7660b22c9b47283b2bd0ad65c)
