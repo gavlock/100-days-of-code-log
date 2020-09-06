@@ -72,3 +72,16 @@ would help out.
 *spoiler* --- it doesn't.
 
 [Added "Harmonic Product Spectrum" for evaluation](https://github.com/gavlock/100-days-of-code-R1/commit/43be2d339b4daae7660b22c9b47283b2bd0ad65c)
+
+### R1D6
+
+Spent time studying auto-correlation, which is apparently better that
+FFT for low frequencies.
+
+Also, started refactoring the instrument data and code for converting
+frequencies to and from note names. This is mostly to have a
+convenient set of frequencies for the auto-correlator once I start
+implementing it.
+
+[Started refactoring instrument
+data](https://github.com/gavlock/100-days-of-code-R1/commit/87c98e6)
