@@ -85,3 +85,17 @@ implementing it.
 
 [Started refactoring instrument
 data](https://github.com/gavlock/100-days-of-code-R1/commit/87c98e6)
+
+### R1D7
+
+Decided to clean up and refactor code before implementing
+auto-correlation. Learned how to use JavaScript ES6 modules as part of
+doing this.
+
+Also, changed the x-axis of the spectrogram to a logarithmic scale.
+
+[Finished refactoring instrument data](https://github.com/gavlock/100-days-of-code-R1/commit/e33081f)
+
+[Moved `debug` and `instrument` code into modules](https://github.com/gavlock/100-days-of-code-R1/commit/e21eb11)
+
+[Added logarithmic frequency scale](https://github.com/gavlock/100-days-of-code-R1/commit/323693f)
