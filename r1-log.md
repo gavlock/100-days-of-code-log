@@ -99,3 +99,10 @@ Also, changed the x-axis of the spectrogram to a logarithmic scale.
 [Moved `debug` and `instrument` code into modules](https://github.com/gavlock/100-days-of-code-R1/commit/e21eb11)
 
 [Added logarithmic frequency scale](https://github.com/gavlock/100-days-of-code-R1/commit/323693f)
+
+### R1D8
+
+Work in progress: Started adding auto-correlation to test it for
+low-frequency pitch detection.
+
+[Started adding auto-correlation](https://github.com/gavlock/100-days-of-code-R1/commit/edcabed)
