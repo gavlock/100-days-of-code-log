@@ -106,3 +106,13 @@ Work in progress: Started adding auto-correlation to test it for
 low-frequency pitch detection.
 
 [Started adding auto-correlation](https://github.com/gavlock/100-days-of-code-R1/commit/edcabed)
+
+### R1D9
+
+Re-did the auto-correlation maths. I think the results look better
+now.
+
+Next will be trying an FFT on the auto-correlation data, to see if
+harmonics help nail down the fundamental frequency better.
+
+[Improved auto-correlation](https://github.com/gavlock/100-days-of-code-R1/commit/00e39b5)
