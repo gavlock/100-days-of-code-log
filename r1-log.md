@@ -116,3 +116,11 @@ Next will be trying an FFT on the auto-correlation data, to see if
 harmonics help nail down the fundamental frequency better.
 
 [Improved auto-correlation](https://github.com/gavlock/100-days-of-code-R1/commit/00e39b5)
+
+### R1D10
+
+Studying Discrete Fourier Transforms and Fast Fourier Transforms.
+First implementing a DFT in JavaScript. (Writing my own instead of
+using a library for the learning value.) Will handle FFT later.
+
+[Tweaked display of auto-correlation results](https://github.com/gavlock/100-days-of-code-R1/commit/9567e77)
