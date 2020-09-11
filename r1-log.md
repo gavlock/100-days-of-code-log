@@ -124,3 +124,17 @@ First implementing a DFT in JavaScript. (Writing my own instead of
 using a library for the learning value.) Will handle FFT later.
 
 [Tweaked display of auto-correlation results](https://github.com/gavlock/100-days-of-code-R1/commit/9567e77)
+
+### R1D11
+
+Fixed a bug in the auto-correlation, which *dramatically* improved the
+quality of note detection. I had been mapping the byte values received
+from the WebAudio API from [0, 255] to a range of [0, 1] instead of to
+a range of [-1, 1].
+
+Also, added a `NoteTracker` component to smooth out (debounce) the
+displayed detected note.
+
+[Fixed autocorrelator range bug](https://github.com/gavlock/100-days-of-code-R1/commit/25f2553)
+
+[Added `NoteTracker` to smooth-out/debounce detected note.](https://github.com/gavlock/100-days-of-code-R1/commit/d9cfa8e)
