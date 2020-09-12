@@ -138,3 +138,18 @@ displayed detected note.
 [Fixed autocorrelator range bug](https://github.com/gavlock/100-days-of-code-R1/commit/25f2553)
 
 [Added `NoteTracker` to smooth-out/debounce detected note.](https://github.com/gavlock/100-days-of-code-R1/commit/d9cfa8e)
+
+### R1D12
+
+Not much coding done today. Spent most of my time setting up a new
+repo and environment for the Music Practice project.  Skunkworks will
+continue in the
+[100-days-of-code-R1](https://github.com/gavlock/100-days-of-code-R1)
+repo for now, but the project
+itself will grow in the
+[music-practice](https://github.com/gavlock/music-practice) repo.
+
+The project can be run at [https://gavlock.dev/music-practice/]
+
+#### Commits:
+- [Getting started with individual note practice.](https://github.com/gavlock/music-practice/commit/5d2f3d5)
