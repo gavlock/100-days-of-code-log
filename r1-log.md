@@ -153,3 +153,13 @@ The project can be run at [https://gavlock.dev/music-practice/]
 
 #### Commits:
 - [Getting started with individual note practice.](https://github.com/gavlock/music-practice/commit/5d2f3d5)
+
+### R1D13
+
+Getting started with SMuFL and Bravura
+
+Learning how to use SMuFL fonts - specifically, understanding
+positioning and metrics.
+
+#### Commits:
+- [WIP: Getting started with SMuFL and Bravura](https://github.com/gavlock/music-practice/commit/bd0cf47)
