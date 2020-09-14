@@ -163,3 +163,20 @@ positioning and metrics.
 
 #### Commits:
 - [WIP: Getting started with SMuFL and Bravura](https://github.com/gavlock/music-practice/commit/bd0cf47)
+
+
+
+### R1D14
+
+Started work on `Music` module.
+
+Implemented the `Note` class for dealing with note names, indices and
+frequencies.
+
+Started on `Staff` classes. Still need to implement maths for shifting
+notes up or down n staff lines (which does not map directly to a
+proportionate number of semi-tones).
+
+#### Commits:
+- [Replace staff line glyphs with drawn paths.](https://github.com/gavlock/music-practice/commit/a0de832)
+- [Started work on `Music` module.](https://github.com/gavlock/music-practice/commit/520d160)
