@@ -180,3 +180,16 @@ proportionate number of semi-tones).
 #### Commits:
 - [Replace staff line glyphs with drawn paths.](https://github.com/gavlock/music-practice/commit/a0de832)
 - [Started work on `Music` module.](https://github.com/gavlock/music-practice/commit/520d160)
+
+
+
+### R1D15
+
+Implemented `StaffCanvas` to render simple music to an HTML
+canvas. This will be used by the practice system to display the
+challenge and the detected response.
+
+#### Commits:
+- [Added drawing of ledger lines, and made staff lines crisper.](https://github.com/gavlock/music-practice/commit/41ddf35)
+- [Finished inital work on drawing notes on staves.](https://github.com/gavlock/music-practice/commit/ef9d60d)
+- [Add staff indices to notes & staves, and add note array to staves.](https://github.com/gavlock/music-practice/commit/16240ab)
