@@ -193,3 +193,19 @@ challenge and the detected response.
 - [Added drawing of ledger lines, and made staff lines crisper.](https://github.com/gavlock/music-practice/commit/41ddf35)
 - [Finished inital work on drawing notes on staves.](https://github.com/gavlock/music-practice/commit/ef9d60d)
 - [Add staff indices to notes & staves, and add note array to staves.](https://github.com/gavlock/music-practice/commit/16240ab)
+
+
+
+### R1D16
+
+Started work on the concept of a practice "session".
+
+Added in the Web Audio "listener" and used auto-correlation to
+determine the note played by the user.
+
+#### Commits:
+- [Changed from using `#` to `♯` internally](https://github.com/gavlock/music-practice/commit/32cd362)
+- [Made space to display hint/answer in challenge box](https://github.com/gavlock/music-practice/commit/05c9440)
+- [Merge branch 'draw-notes' into main](https://github.com/gavlock/music-practice/commit/fe60ecc)
+- [Added practice `Session` class, prevent dupes, and request audio](https://github.com/gavlock/music-practice/commit/89af8bc)
+- [Added `noteListener`, `noteTracker` & basic display of detected note](https://github.com/gavlock/music-practice/commit/ac00aa1)
