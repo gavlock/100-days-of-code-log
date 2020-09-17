@@ -209,3 +209,15 @@ determine the note played by the user.
 - [Merge branch 'draw-notes' into main](https://github.com/gavlock/music-practice/commit/fe60ecc)
 - [Added practice `Session` class, prevent dupes, and request audio](https://github.com/gavlock/music-practice/commit/89af8bc)
 - [Added `noteListener`, `noteTracker` & basic display of detected note](https://github.com/gavlock/music-practice/commit/ac00aa1)
+
+
+
+### R1D17
+
+Started adding a page for testing & tweaking audio processing parameters.
+
+Also, switching to use a Web Audio script processor, instead of an
+analyzer node.
+
+#### Commits:
+- [Start adding page for testing & tweaking audio processing parameters](https://github.com/gavlock/music-practice/commit/d8130ed)
