@@ -221,3 +221,15 @@ analyzer node.
 
 #### Commits:
 - [Start adding page for testing & tweaking audio processing parameters](https://github.com/gavlock/music-practice/commit/d8130ed)
+
+
+
+### R1D18
+
+Added a plot of the microphone sound levels, and configurable
+sound/silence detection to the audio test page.
+
+#### Commits:
+- [Plot input levels on audio test page](https://github.com/gavlock/music-practice/commit/618e8a4)
+- [Added silence/sound detection with configurable thresholds](https://github.com/gavlock/music-practice/commit/b11e90d)
+- [Added `jqueryui-touch-punch` so that controls work on touch screens](https://github.com/gavlock/music-practice/commit/e438ba3)
