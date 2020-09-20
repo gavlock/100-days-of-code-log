@@ -242,3 +242,17 @@ Started adding autocorrelation to audio test page
 
 #### Commits:
 - [Started adding autocorrelation to audio test page](https://github.com/gavlock/music-practice/commit/3ba06b2)
+
+
+
+### R1D20
+
+Did some more work on the autocorrelation code, and added a chart to
+visualise the correlation function.
+
+#### Commits:
+- [More work on autocorrelation, including adding correlation chart](https://github.com/gavlock/music-practice/commit/2477a1e)
+
+
+
+
