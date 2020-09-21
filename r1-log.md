@@ -255,4 +255,11 @@ visualise the correlation function.
 
 
 
+### R1D21
 
+My naïve implementation of the autocorrelator is too slow - as expected
+(make it work, THEN make it fast.)
+
+Spent time today trying out various optimisations.
+
+No new code to commit yet - will continue tomorrow.
