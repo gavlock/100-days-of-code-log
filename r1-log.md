@@ -263,3 +263,19 @@ My naïve implementation of the autocorrelator is too slow - as expected
 Spent time today trying out various optimisations.
 
 No new code to commit yet - will continue tomorrow.
+
+
+
+### R1D22
+
+Spent time playing around with TensorFlow to see if I can use it to
+offload the audio processing to the GPU (because most of the
+calculations needed are *very* parallelisable.)
+
+Another route I might explore in the future is to use WebGL and write a shader to do
+the calcs.
+
+Also in the future: For multi-note (chord) detection, a neural net
+might be the way to go. This would obviously be able to handle single
+notes as well, but for now, I still want to continue exploring
+traditional correlation and/or Fourier transform approaches.
