@@ -279,3 +279,14 @@ Also in the future: For multi-note (chord) detection, a neural net
 might be the way to go. This would obviously be able to handle single
 notes as well, but for now, I still want to continue exploring
 traditional correlation and/or Fourier transform approaches.
+
+
+
+### R1D23
+
+Started implementing autocorrelation using Tensorflow.
+Spent most of my time getting back up to speed with D3 so that I can
+use it for visualisations.
+
+#### Commits:
+- [Started working with TensorFlow and D3 visualisations](https://github.com/gavlock/100-days-of-code-R1/commit/f30759c)
