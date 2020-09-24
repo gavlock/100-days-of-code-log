@@ -290,3 +290,19 @@ use it for visualisations.
 
 #### Commits:
 - [Started working with TensorFlow and D3 visualisations](https://github.com/gavlock/100-days-of-code-R1/commit/f30759c)
+
+
+
+### R1D24
+
+Some more D3 work improving the visualisations so that I can actually
+see what results I get back from TensorFlow.
+
+Maybe I'm
+[shaving a yak](https://seths.blog/2005/03/dont_shave_that/),
+maybe I'm not - but at least I'm learning, and getting back into the
+habit of coding every day.
+
+#### Commits:
+- [Added multi-series support to `Chart`](https://github.com/gavlock/100-days-of-code-R1/commit/4e23576)
+- [Added series labels and cleaned up horizonal ticks](https://github.com/gavlock/100-days-of-code-R1/commit/3221e00)
