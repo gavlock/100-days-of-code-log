@@ -306,3 +306,25 @@ habit of coding every day.
 #### Commits:
 - [Added multi-series support to `Chart`](https://github.com/gavlock/100-days-of-code-R1/commit/4e23576)
 - [Added series labels and cleaned up horizonal ticks](https://github.com/gavlock/100-days-of-code-R1/commit/3221e00)
+
+
+
+### R1D25
+
+Playing around with various TensorFlow operations, I realised that the
+maths behind convolution (the sum of the element-wise products of the
+signal and the kernel as the kernel is moved across the signal) and
+the maths behind auto-correlation (the sum of the element-wise
+products of the signal with a shifted copy of itself as the shift
+(lag) is "moved" across the frequency range of interest) are basically
+the same!
+
+In other words, using a shifted (lagged) copy of the signal as the
+kernel for a 1D convolution of the signal itself, effectively
+calculates the reverse of the correlation function.
+
+This means that I can use TensorFlow's `conv1d` function as a
+GPU-powered autocorrelation function.
+
+#### Commits:
+- [Autocorrelation using autoconvolution](https://github.com/gavlock/100-days-of-code-R1/commit/ee3f6de)
