@@ -328,3 +328,25 @@ GPU-powered autocorrelation function.
 
 #### Commits:
 - [Autocorrelation using autoconvolution](https://github.com/gavlock/100-days-of-code-R1/commit/ee3f6de)
+
+
+
+### R1D26
+
+Created an audio signal generator that will produce small windowed
+buffers of audio in the same way that I would receive them from an API
+like Web Audio.
+
+Modified the TensorFlow autocorrelator to operate in windowed mode,
+shifting new data buffers through its "working areea" variable.
+
+Windowing, with a relatively small buffer, allows the code to respond
+to changes in the incoming audio sooner. Keeping the working buffer on
+the GPU improves performance, as I only have to upload the new window
+on each audio tick.
+
+#### Commits:
+- [Truncate, rather than shift, the kernel](https://github.com/gavlock/100-days-of-code-R1/commit/ab551b9)
+- [Move D3 chart code to a module](https://github.com/gavlock/100-days-of-code-R1/commit/c27515d)
+- [Adding windowed audio generator](https://github.com/gavlock/100-days-of-code-R1/commit/7f2ca2d)
+- [Added windowed-audio support to TensorFlow autocorrelator](https://github.com/gavlock/100-days-of-code-R1/commit/6fbea3c)
