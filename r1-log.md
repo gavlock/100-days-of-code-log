@@ -350,3 +350,17 @@ on each audio tick.
 - [Move D3 chart code to a module](https://github.com/gavlock/100-days-of-code-R1/commit/c27515d)
 - [Adding windowed audio generator](https://github.com/gavlock/100-days-of-code-R1/commit/7f2ca2d)
 - [Added windowed-audio support to TensorFlow autocorrelator](https://github.com/gavlock/100-days-of-code-R1/commit/6fbea3c)
+
+
+
+### R1D27
+
+Replaced the JavaScript-based autocorrelation in the audio test page
+with the new solution using TensorFlow.
+
+Performance is *dramatically* improved.
+
+#### Commits:
+- [Fixed bug regarding inital "local echo" setting](https://github.com/gavlock/music-practice/commit/591e9f6)
+- [Add scaling factor for JS-based correlation](https://github.com/gavlock/music-practice/commit/9c7d66f)
+- [Replacing JavaScript autocorrelator with  TensorFlow autocorrelator](https://github.com/gavlock/music-practice/commit/dc5638f)
