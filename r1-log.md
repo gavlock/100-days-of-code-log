@@ -364,3 +364,13 @@ Performance is *dramatically* improved.
 - [Fixed bug regarding inital "local echo" setting](https://github.com/gavlock/music-practice/commit/591e9f6)
 - [Add scaling factor for JS-based correlation](https://github.com/gavlock/music-practice/commit/9c7d66f)
 - [Replacing JavaScript autocorrelator with  TensorFlow autocorrelator](https://github.com/gavlock/music-practice/commit/dc5638f)
+
+
+
+### R1D28
+
+Getting ready for the next step - neural nets.
+
+Updated Python, Jupyter, TensorFlow and Keras.
+Started playing around with some ideas for ANN models to handle
+multi-note (chord) pitch recognition.
