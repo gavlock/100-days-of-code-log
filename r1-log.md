@@ -374,3 +374,11 @@ Getting ready for the next step - neural nets.
 Updated Python, Jupyter, TensorFlow and Keras.
 Started playing around with some ideas for ANN models to handle
 multi-note (chord) pitch recognition.
+
+
+
+### R1D29
+
+Downloaded the MAPS dataset and started working on Python code to
+iterate through the dataset, reading the audio and note data for each
+sample.
