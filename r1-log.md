@@ -382,3 +382,15 @@ multi-note (chord) pitch recognition.
 Downloaded the MAPS dataset and started working on Python code to
 iterate through the dataset, reading the audio and note data for each
 sample.
+
+
+
+### R1D30
+
+Finished the Python code to iterate through the MAPS dataset and
+started setting up the neural net model to train with the MAPS data.
+
+#### Commits:
+- [Added FFT of autocorrelation](https://github.com/gavlock/100-days-of-code-R1/commit/6224ca9)
+- [Merge branch 'autocorrelate' into main](https://github.com/gavlock/100-days-of-code-R1/commit/9783915)
+- [Read MAPS Database for neural net training](https://github.com/gavlock/100-days-of-code-R1/commit/7955430)
