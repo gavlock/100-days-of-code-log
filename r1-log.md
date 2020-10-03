@@ -394,3 +394,15 @@ started setting up the neural net model to train with the MAPS data.
 - [Added FFT of autocorrelation](https://github.com/gavlock/100-days-of-code-R1/commit/6224ca9)
 - [Merge branch 'autocorrelate' into main](https://github.com/gavlock/100-days-of-code-R1/commit/9783915)
 - [Read MAPS Database for neural net training](https://github.com/gavlock/100-days-of-code-R1/commit/7955430)
+
+
+
+### R1D31
+
+Transferred the MAPS iterate & read code from my Jupyter notebook into
+a Python module.
+
+Updated Emacs and cleaned up my `init.org` file.
+
+#### Commits:
+- [Create `samples.maps` module and reorganise files and folders](https://github.com/gavlock/100-days-of-code-R1/commit/966a212)
