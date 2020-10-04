@@ -406,3 +406,12 @@ Updated Emacs and cleaned up my `init.org` file.
 
 #### Commits:
 - [Create `samples.maps` module and reorganise files and folders](https://github.com/gavlock/100-days-of-code-R1/commit/966a212)
+
+
+
+### R1D32
+
+Taking a short break from the music practice app.
+
+Spent the day learning OpenSCAD's built-in language and using it to
+programmatically define some models I needed to 3D print.
