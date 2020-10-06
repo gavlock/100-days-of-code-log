@@ -415,3 +415,20 @@ Taking a short break from the music practice app.
 
 Spent the day learning OpenSCAD's built-in language and using it to
 programmatically define some models I needed to 3D print.
+
+
+
+### R1D33
+
+Did some more elisp coding of some utility functions for emacs.
+
+Wrote `raise-next-frame`, `raise-previous-frame` and `ido-raise-frame`
+functions, and setup key bindings, to make it easier to switch between
+emacs frames spread across my various virtual desktops.
+
+[switch-frames.el](https://gist.github.com/gavlock/f446c5508e9b522a845fd9e3c76a988e)
+
+Also, wrote an `:around` advice function for `eshell` to get a
+separate eshell buffer for each Projectile project.
+
+[projectile-eshell.el](https://gist.github.com/gavlock/93ea032f5f3b12e4409964a6ad686e72)
