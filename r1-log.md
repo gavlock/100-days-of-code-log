@@ -432,3 +432,15 @@ Also, wrote an `:around` advice function for `eshell` to get a
 separate eshell buffer for each Projectile project.
 
 [projectile-eshell.el](https://gist.github.com/gavlock/93ea032f5f3b12e4409964a6ad686e72)
+
+
+
+### R1D34
+
+Returning to the music practice app.
+
+Set up a Jupyter notebook to explore extracting audio clips from MAPS
+for training the neural net.
+
+#### Commits:
+- [Exploring audio clip extraction](https://github.com/gavlock/100-days-of-code-R1/commit/da5a006)
