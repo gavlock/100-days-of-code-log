@@ -444,3 +444,17 @@ for training the neural net.
 
 #### Commits:
 - [Exploring audio clip extraction](https://github.com/gavlock/100-days-of-code-R1/commit/da5a006)
+
+
+
+### R1D35
+
+Finished transforming MAPS data into what I need for the neural net.
+Started designing the model.
+
+Training starts well, but - pretty quickly - the loss function returns
+NaN, and accuracy drops to zero flat. Investigating...
+
+#### Commits:
+- [Implement MAPS data transforms and basic clip extraction](https://github.com/gavlock/100-days-of-code-R1/commit/2410fc4)
+- [Start designing model](https://github.com/gavlock/100-days-of-code-R1/commit/159a65d)
