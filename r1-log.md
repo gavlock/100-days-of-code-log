@@ -458,3 +458,18 @@ NaN, and accuracy drops to zero flat. Investigating...
 #### Commits:
 - [Implement MAPS data transforms and basic clip extraction](https://github.com/gavlock/100-days-of-code-R1/commit/2410fc4)
 - [Start designing model](https://github.com/gavlock/100-days-of-code-R1/commit/159a65d)
+
+
+
+### R1D36
+
+Fix NaN losses by changing activations
+
+- Change hidden layer to use a *leaky* RELU to avoid the "dying RELU"
+  problem
+
+- Change the output layer to use Softmax for now (for single note
+  testing). Will probably use Sigmoid later on.
+
+#### Commits:
+- [Fix NaN losses by changing activations](https://github.com/gavlock/100-days-of-code-R1/commit/261153f)
