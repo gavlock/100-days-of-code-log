@@ -473,3 +473,13 @@ Fix NaN losses by changing activations
 
 #### Commits:
 - [Fix NaN losses by changing activations](https://github.com/gavlock/100-days-of-code-R1/commit/261153f)
+
+
+
+### R1D37
+
+Started refactoring dataset importing to make the dataset note-centric
+(rather than data-source-and-instrument-centric).
+
+#### Commits:
+- [Start refactoring dataset importing](https://github.com/gavlock/100-days-of-code-R1/commit/921fc8c)
