@@ -483,3 +483,13 @@ Started refactoring dataset importing to make the dataset note-centric
 
 #### Commits:
 - [Start refactoring dataset importing](https://github.com/gavlock/100-days-of-code-R1/commit/921fc8c)
+
+
+
+### R1D38
+
+Continued refactoring dataset importing - including reading audio
+samples directly into tensors.
+
+#### Commits:
+- [Continue refactoring dataset importing](https://github.com/gavlock/100-days-of-code-R1/commit/f4f1373)
