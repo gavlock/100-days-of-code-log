@@ -493,3 +493,13 @@ samples directly into tensors.
 
 #### Commits:
 - [Continue refactoring dataset importing](https://github.com/gavlock/100-days-of-code-R1/commit/f4f1373)
+
+
+
+### R1D39
+
+Finished refactoring the dataset importing, and created the dataset
+and data sources Python package.
+
+#### Commits:
+- [Finish dataset refactoring and package](https://github.com/gavlock/100-days-of-code-R1/commit/28d2251)
