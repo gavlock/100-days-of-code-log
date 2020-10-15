@@ -503,3 +503,12 @@ and data sources Python package.
 
 #### Commits:
 - [Finish dataset refactoring and package](https://github.com/gavlock/100-days-of-code-R1/commit/28d2251)
+
+
+
+### R1D40
+
+Continuing to work on the Keras model using the refactored dataset.
+
+Created a `keras.utils.Sequence` generator, but I'm struggling to get
+it working with `model.fit`.
