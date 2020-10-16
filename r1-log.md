@@ -512,3 +512,13 @@ Continuing to work on the Keras model using the refactored dataset.
 
 Created a `keras.utils.Sequence` generator, but I'm struggling to get
 it working with `model.fit`.
+
+
+
+### R1D41
+
+Managed to get the generator working by "squeezing" the audio waveform
+batch data from [batch_size, window_size, 1] to [batch_size, window_size]
+
+#### Commits:
+- [Create a `keras.utils.Sequence` generator for training the model](https://github.com/gavlock/100-days-of-code-R1/commit/d8562b4)
