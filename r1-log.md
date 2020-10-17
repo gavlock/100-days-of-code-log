@@ -522,3 +522,11 @@ batch data from [batch_size, window_size, 1] to [batch_size, window_size]
 
 #### Commits:
 - [Create a `keras.utils.Sequence` generator for training the model](https://github.com/gavlock/100-days-of-code-R1/commit/d8562b4)
+
+
+
+### R1D42
+
+Playing around with different architectures for the model.
+
+Today's focus: convolution layers
