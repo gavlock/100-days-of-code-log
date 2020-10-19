@@ -530,3 +530,14 @@ batch data from [batch_size, window_size, 1] to [batch_size, window_size]
 Playing around with different architectures for the model.
 
 Today's focus: convolution layers
+
+
+
+### R1D43
+
+Playing around with different architectures for the model.
+
+Today's focus: depth vs width
+
+Also, started creating charts to visualise model accuracy across
+different dimensions (note, time-since-onset and (maybe) instrument).
