@@ -541,3 +541,17 @@ Today's focus: depth vs width
 
 Also, started creating charts to visualise model accuracy across
 different dimensions (note, time-since-onset and (maybe) instrument).
+
+
+
+### R1D44
+
+Finished creating charts to visualise model accuracy across different
+dimensions: accuracy by note, accuracy by time-since-onset, and a 3D
+scatter plot of accuracy by note and time.
+
+[Jupyter notebook](https://github.com/gavlock/100-days-of-code-R1/blob/0d69fb0/machine-learning/piano/Model%20design.ipynb)
+
+#### Commits:
+- [Add `get_clip_at_t` method to samples](https://github.com/gavlock/100-days-of-code-R1/commit/570a1ed)
+- [Add visualisation of trained model accuracy by note and time](https://github.com/gavlock/100-days-of-code-R1/commit/0d69fb0)
