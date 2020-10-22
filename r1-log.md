@@ -555,3 +555,14 @@ scatter plot of accuracy by note and time.
 #### Commits:
 - [Add `get_clip_at_t` method to samples](https://github.com/gavlock/100-days-of-code-R1/commit/570a1ed)
 - [Add visualisation of trained model accuracy by note and time](https://github.com/gavlock/100-days-of-code-R1/commit/0d69fb0)
+
+
+
+### R1D45
+
+Exploring deeper convolution networks and convolution dilation rates.
+
+[Jupyter notebook](https://github.com/gavlock/100-days-of-code-R1/blob/1dd46c1/machine-learning/piano/Model%20design.ipynb)
+
+#### Commits:
+- [Explore deeper convolution networks and convolution dilation rates](https://github.com/gavlock/100-days-of-code-R1/commit/1dd46c1)
