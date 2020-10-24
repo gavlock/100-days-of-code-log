@@ -566,3 +566,11 @@ Exploring deeper convolution networks and convolution dilation rates.
 
 #### Commits:
 - [Explore deeper convolution networks and convolution dilation rates](https://github.com/gavlock/100-days-of-code-R1/commit/1dd46c1)
+
+
+
+### R1D46
+
+Still exploring convolution networks and convolution dilation rates.
+
+Started setting up a "manual" autocorrelation convolution layer.
