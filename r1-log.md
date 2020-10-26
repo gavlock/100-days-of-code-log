@@ -574,3 +574,12 @@ Exploring deeper convolution networks and convolution dilation rates.
 Still exploring convolution networks and convolution dilation rates.
 
 Started setting up a "manual" autocorrelation convolution layer.
+
+
+
+### R1D47
+
+Paused work on the "manual" autocorrelation convolution layer.
+
+Setting up a confusion matrix view so that I can get a "before and
+after" for the autocorrelation.
