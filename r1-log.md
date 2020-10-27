@@ -583,3 +583,10 @@ Paused work on the "manual" autocorrelation convolution layer.
 
 Setting up a confusion matrix view so that I can get a "before and
 after" for the autocorrelation.
+
+
+
+### R1D48
+
+Finished the confusion matrix view, but struggling with computer
+crashing while training with GPU enabled.
