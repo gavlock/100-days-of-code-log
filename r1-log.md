@@ -590,3 +590,13 @@ after" for the autocorrelation.
 
 Finished the confusion matrix view, but struggling with computer
 crashing while training with GPU enabled.
+
+
+
+### R1D49
+
+Still experiencing hardware crashes.
+
+Continued work on a "manual" autocorrelation layer. Implementing it
+both as a `dense` layer and as a `conv1d` layer to see which one is
+cheaper.
