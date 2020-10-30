@@ -600,3 +600,10 @@ Still experiencing hardware crashes.
 Continued work on a "manual" autocorrelation layer. Implementing it
 both as a `dense` layer and as a `conv1d` layer to see which one is
 cheaper.
+
+
+
+### R1D50
+
+Spent time today working on various elisp and Jekyll issues that have
+been on my list for a while.
